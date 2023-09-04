@@ -1,0 +1,74 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(128, 237, 153);
+    font-family: monospace;
+    font-size: larger;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+@import url('https://fonts.cdnfonts.com/css/anurati');
+h1,h2{
+    font-family: 'Anurati', sans-serif;;
+}
+p{
+    text-shadow: none;
+}
+.introduction{
+    height: 50px;
+}
+p::selection{
+    color: black;
+    background-color: rgb(128, 237, 153);
+}
+#sequence{
+    width: 30%;
+    background-color: rgba(128, 237, 153);
+    color: black;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    transition-duration: 0.5s;
+}
+#sequence:focus{
+    box-shadow: 0px 0px 9px rgb(128, 237, 153);
+    outline: none;
+}
+#sequence::placeholder{
+    color: black;
+}
+.Analyze_Button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.Analyze_Button:hover{
+    background-color: rgba(128, 237, 153);
+    box-shadow: 0px 0px 9px rgb(128, 237, 153);
+}
+.analysis_container{
+    background-color: rgba(128, 237, 153);
+    width: 90%;
+    height: fit-content;
+    min-height: 50%;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: black;
+    box-shadow: 0px 0px 9px rgb(128, 237, 153);
+    padding: 20px;
+    overflow-y: scroll;
+}
+h3{
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
